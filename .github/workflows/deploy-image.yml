@@ -13,6 +13,13 @@ on:
   push:
     branches: ['master']
   create:
+  workflow_dispatch:
+  inputs:
+    build:
+      description: 'Perform build?'
+      required: true
+      default: 'true'
+      type: boolean
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
