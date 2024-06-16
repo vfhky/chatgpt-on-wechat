@@ -173,6 +173,11 @@ available_setting = {
     "linkai_api_key": "",
     "linkai_app_code": "",
     "linkai_api_base": "https://api.link-ai.tech",  # linkAI服务地址
+    # coze api配置
+    "coze_key": "你的coze的token",
+    "coze_api_base": "https://api.coze.com/open_api/v2/chat",
+    "coze_bot_id": "bot的id",
+    "coze_user": "用户id",
 }
 
 
